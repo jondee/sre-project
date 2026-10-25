@@ -18,8 +18,8 @@ global:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  defaultStorageClass: "gp2-csi"
-  storageClass: "gp2-csi"
+  defaultStorageClass: "ebs-auto-gp3"
+  storageClass: "ebs-auto-gp3"
   ## Security parameters
   ##
   security:
